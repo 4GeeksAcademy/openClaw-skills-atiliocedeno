@@ -1,0 +1,15 @@
+# OpenClaw
+*.log
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
