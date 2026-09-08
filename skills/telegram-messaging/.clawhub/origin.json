@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "telegram-messaging",
+  "ownerHandle": "hith3sh",
+  "installedVersion": "0.2.2",
+  "installedAt": 1788837822056,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "2d3e83a82c8456d76a8fa07ed724c51129da87f4e8c52a666da0820bbad53d93",
+    "integrity": "sha256-LT6DqCyEVtdqj6B+1yTFESnah/ToxSpmbaCCC7rVPZM="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "2443599c45a025f2cd687994ebeee787bfd1984741c6fdf6cf209ec33635aac6"
+  }
+}

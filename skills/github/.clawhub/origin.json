@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "github",
+  "ownerHandle": "steipete",
+  "installedVersion": "1.0.0",
+  "installedAt": 1788841134568,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "1049a984f57f320a86ad7bee63d602468e360c3954b9cbcab1cb77f79fae07b6",
+    "integrity": "sha256-EEmphPV/MgqGrXvuY9YCRo42DDlUucvKsct395+uB7Y="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "51b28818a6f0359287d5c8244a6fdc59a4ac5504596deb193b28b81832221c86"
+  }
+}
