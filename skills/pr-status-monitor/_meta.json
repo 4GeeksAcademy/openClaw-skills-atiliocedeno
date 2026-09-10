@@ -1,0 +1,13 @@
+{
+  "ownerId": "local-user",
+  "slug": "pr-status-monitor",
+  "version": "1.0.0",
+  "publishedAt": 1767545344344,
+  "labels": [
+    "github",
+    "pull-request",
+    "status-monitor",
+    "ci",
+    "automation"
+  ]
+}
