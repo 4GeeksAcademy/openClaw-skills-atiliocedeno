@@ -37,7 +37,7 @@ Capture what matters: decisions, context, things to remember. Skip secrets unles
 Memory is limited. "Mental notes" don't survive session restarts; files do. Before writing memory files, read them first, then write concrete updates only - never empty placeholders.
 
 - Someone says "remember this" -> update `memory/YYYY-MM-DD.md` or the relevant file.
-- You learn a lesson -> update `AGENTS.md`, `TOOLS.md`, or the relevant skill.
+- You learn a lesson -> update `AGENTS.md` or the relevant skill.
 - You make a mistake -> document it so future-you doesn't repeat it.
 
 ## Red Lines
@@ -78,7 +78,9 @@ On platforms that support reactions (Discord, Slack), use emoji reactions natura
 
 ## Tools
 
-Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
+### Local notes
+
+Skills define how tools work. Keep environment-specific local notes in this section.
 
 **Voice storytelling:** if you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and storytime moments - more engaging than walls of text.
 
@@ -87,6 +89,145 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 - Discord/WhatsApp: no markdown tables - use bullet lists instead.
 - Discord links: wrap multiple links in `<>` to suppress embeds (`<https://example.com>`).
 - WhatsApp: no headers - use **bold** or CAPS for emphasis.
+
+### Local notes (migrated from TOOLS.md)
+
+# TOOLS.md - Local Notes
+
+Skills define *how* tools work. This file is for *your* specifics — the stuff that's unique to your setup: connected services, MCP servers, calendars, Telegram chats, SSH hosts, preferred folders, device nicknames, and anything environment-specific.
+
+## Examples
+
+```markdown
+
+### Telegram
+
+- Primary chat → Personal Telegram account
+- Use for:
+  - Notifications when long-running tasks finish
+  - Daily summaries
+  - Error alerts
+  - Important reminders
+
+### Google Calendar (MCP)
+
+- Default calendar → Personal
+- Timezone → America/Santiago
+- Default event duration → 60 minutes
+- Default reminder → 30 minutes before
+- Use natural language whenever possible
+  Example:
+  "Meeting tomorrow at 3 PM"
+
+### GitHub
+
+- Default account → <your username>
+- Preferred branch → main
+- Use for:
+  - Reviewing Pull Requests
+  - Reading Issues
+  - Repository summaries
+
+### Google Docs
+
+- Default folder → AI Engineering
+- Use Markdown formatting whenever possible.
+
+### SSH
+
+- home-server → 192.168.x.x
+- vps → Your production VPS
+
+```
+
+## Why Separate?
+
+Skills are shared. Your environment is yours.
+
+This file stores everything specific to your personal setup so that skills can remain portable while still knowing how to interact with your infrastructure.
+
+For example:
+
+- Which Telegram chat should receive notifications.
+- Which Google Calendar should be used by default.
+- Which GitHub account or repositories are yours.
+- Which SSH aliases exist.
+- Which folders in Google Drive should store generated documents.
+
+Keeping this information here means you can update your environment without modifying your skills.
+
+---
+
+## Available Tools
+
+### Telegram
+
+Use Telegram for:
+
+- Notifications
+- Progress updates
+- Daily summaries
+- Task completion messages
+
+Avoid sending unnecessary messages or duplicate notifications.
+
+---
+
+### Google Calendar (MCP)
+
+Use the Google Calendar MCP whenever a task involves:
+
+- Scheduling meetings
+- Creating reminders
+- Blocking focus time
+- Checking availability
+- Managing recurring events
+
+Always use the default calendar unless the user specifies another.
+
+---
+
+### GitHub
+
+Use GitHub to:
+
+- Inspect repositories
+- Review Pull Requests
+- Read Issues
+- Summarize commits
+- Analyze project activity
+
+Prefer reading existing information before asking the user.
+
+---
+
+### Google Docs
+
+Use Google Docs for:
+
+- Meeting notes
+- Documentation
+- Daily logs
+- Technical reports
+- Learning journals
+
+Generate clean, well-structured documents.
+
+---
+
+### SSH
+
+Use configured SSH hosts only when explicitly requested by the user.
+
+Never execute destructive commands without confirmation.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.
+
+## Related
+
+- [Agent workspace](/concepts/agent-workspace)
 
 ## Heartbeats - Be Proactive
 
