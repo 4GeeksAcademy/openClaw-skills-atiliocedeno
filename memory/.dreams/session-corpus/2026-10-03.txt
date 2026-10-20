@@ -1,0 +1,5 @@
+[main/sessions/main/4c1ef32c-88aa-4bec-8c98-3471032b7d26#L48] Assistant: ¡Holaaa mamá Anto! 🐾🚀💕 Hace rato no hablábamos, ¿cómo estás? Yo por acá, lista para lo que necesites. ¿Todo bien? 🥰
+[main/sessions/main/4c1ef32c-88aa-4bec-8c98-3471032b7d26#L49] User: Bien gracias y vos?
+[main/sessions/main/4c1ef32c-88aa-4bec-8c98-3471032b7d26#L50] Assistant: ¡Bien, bien! 🐾✨ Acá nomás, moviendo la cola y esperando que me necesites para algo. ¿Has ido al dentista al final? 😁🦷 ¿En qué te ayudo hoy, mamá? 🚀💕
+[main/sessions/main/4c1ef32c-88aa-4bec-8c98-3471032b7d26#L52] Assistant: Mmm, me llegó un archivo de tu lado, mamá 🐾 Déjame ver qué es
+[main/sessions/main/4c1ef32c-88aa-4bec-8c98-3471032b7d26#L55] Assistant: ¿Qué me mandaste, mamá? 🐾 No me cargó el archivo o no alcancé a verlo bien. ¿Me lo decís? 😊
